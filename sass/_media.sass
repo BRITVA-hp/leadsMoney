@@ -1,0 +1,277 @@
+@media screen and ( max-width: 1400px )
+    .last
+        padding-top: 80px
+        min-height: 510px
+        max-height: 800px
+        &__title
+            font-size: 44px
+            max-width: 650px
+            margin-bottom: 40px
+        &__container
+            background: url(../img/last/tel.png) no-repeat right calc( 100% - 50px )/400px
+
+    .quiz
+        padding-top: 80px
+        min-height: 540px
+        max-height: 800px
+        &__title
+            font-size: 44px
+            margin-bottom: 40px
+
+    .main
+        padding-top: 80px
+        min-height: 600px
+        max-height: 800px
+        &__tel
+            width: 150px
+            bottom: -30px
+            transform: translateX(25px)
+            &__msg
+                &--1
+                    top: -5px
+                    right: 15px
+                &--2
+                    right: -50px
+                &--3
+                    top: 80px
+                    right: -50px
+        &__text
+            font-size: 25px
+            max-width: 510px
+        &__elem
+            padding: 15px 50px 15px 200px
+            transform: translateX(-200px)
+            margin-bottom: 15px
+            &__text
+                font-size: 22px
+        &__container
+            max-width: 1000px
+        &__title
+            font-size: 50px
+            max-width: 570px
+
+@media screen and ( max-width: 1200px )
+    .modal
+        &-main
+            &__close
+                width: 30px
+                right: 26px
+                top: 26px
+            &__input-group
+                max-width: 400px
+            &__button
+                max-width: 400px
+            &__title
+                font-size: 36px
+            &__dialog
+                max-width: 500px
+                padding: 150px 20px
+        &-thanks
+            &__text
+                font-size: 22px
+            &__close
+                width: 30px
+                right: 26px
+                top: 26px
+            &__title
+                font-size: 44px
+            &__dialog
+                max-width: 500px
+                padding: 180px 20px
+
+    .header
+        &__text
+            font-size: 22px
+        &__button
+            width: 280px
+            font-size: 18px
+            padding: 15px 0
+
+@media screen and ( max-width: 991px )
+    .last
+        height: auto
+        min-height: 0
+        max-height: none
+        padding-top: 0
+        &__button
+            width: 140px
+            grid-gap: 10px
+            font-size: 18px
+            svg
+                width: 40px
+        &__button-group
+            grid-gap: 10px
+        &__container
+            padding-top: 40px
+            background: url(../img/last/tel.png) no-repeat right bottom/300px
+        &__box
+            grid-gap: 15px
+        &__input-group
+            height: 55px
+            width: 290px
+        &__input
+            padding: 0 15px
+        &__title
+            font-size: 24px
+            max-width: 370px
+            margin-bottom: 30px
+
+    .quiz
+        padding-top: 40px
+        min-height: 0
+        max-height: none
+        height: auto
+        &__button-wrap
+            grid-gap: 10px
+        &__button
+            font-size: 18px
+            width: 140px
+            grid-gap: 10px
+            svg
+                width: 40px
+        &__title
+            font-size: 24px
+            margin-bottom: 30px
+        &__input
+            height: 55px
+            padding: 0 15px
+            font-size: 16px
+        &__box
+            max-width: 900px
+            grid-gap: 15px
+            grid-template-columns: repeat(auto-fill, 290px)
+
+    .main
+        padding-top: 40px
+        min-height: 0
+        height: auto
+        max-height: none
+        &__tel
+            width: 80px
+            transform: translateX(80px)
+            &__msg
+                &--1
+                    top: -5px
+                    right: 7px
+                &--2
+                    right: -24px
+                &--3
+                    top: 42px
+                    right: -27px
+        &__button
+            font-size: 18px
+            width: 100%
+            max-width: 300px
+        &__text
+            font-size: 18px
+            max-width: 370px
+            margin-bottom: 10px
+        &__container
+            max-width: 600px
+        &__elem
+            padding: 8px 50px 8px 200px
+            margin-bottom: 10px
+            grid-gap: 10px
+            &__text
+                font-size: 18px
+                max-width: 240px
+        &__title
+            font-size: 28px
+            max-width: 320px
+            margin-bottom: 10px
+
+    .header
+        &__text
+            font-size: 18px
+        &__button
+            display: none
+        &__phone
+            display: block
+
+@media screen and ( max-width: 767px )
+    .modal
+        &-main
+            &__close
+                right: 50%
+                transform: translateX(50%)
+            &__button
+                font-size: 18px
+            &__input
+                padding: 0 16px
+                font-size: 16px
+            &__input-group
+                height: 55px
+                margin-bottom: 15px
+            &__dialog
+                max-width: 290px
+                padding: 100px 10px
+            &__title
+                font-size: 24px
+                margin-bottom: 30px
+        &-thanks
+            &__dialog
+                max-width: 290px
+                padding: 180px 10px
+            &__title
+                font-size: 24px
+                margin-bottom: 20px
+            &__text
+                font-size: 16px
+                max-width: 300px
+                margin: auto
+
+    .last
+        &__box
+            flex-direction: column
+
+    .main
+        &__elem
+            padding: 8px 50px 8px 84px
+            transform: translateX(-84px)
+
+@media screen and ( max-width: 575px )
+    // settings
+    .section
+        padding-left: 15px
+        padding-right: 15px
+    // settings
+
+    .last
+        &__title
+            text-align: center
+            max-width: 290px
+        &__box
+            align-items: center
+        &__container
+            background: none
+            align-items: center
+
+    .main
+        padding-left: 0
+        padding-top: 15px
+        &__tel
+            display: none
+        &__elem
+            width: 100%
+            padding: 8px 0
+            transform: none
+            justify-content: center
+        &__button
+            margin-left: 15px
+        &__text
+            text-align: center
+            padding-left: 15px
+        &__box
+            align-items: center
+        &__title
+            max-width: 270px
+            text-align: center
+            padding-left: 15px
+        &__img
+            position: static
+
+    .header
+        padding-top: 10px
+        padding-bottom: 10px
+        &__text
+            display: none
